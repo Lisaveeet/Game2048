@@ -1,0 +1,4 @@
+C:/Game2048/src/tests/cmake-build-debug/CMakeFiles/tests.dir
+C:/Game2048/src/tests/cmake-build-debug/CMakeFiles/test.dir
+C:/Game2048/src/tests/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Game2048/src/tests/cmake-build-debug/CMakeFiles/rebuild_cache.dir

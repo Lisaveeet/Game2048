@@ -1,0 +1,9 @@
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1.2/bin/ninja/win/ninja.exe" -DSFML_DIR=C:/Game2048/libs/SFML-2.5.1/lib/cmake/SFML -G Ninja -S C:\Game2048\src\tests -B C:\Game2048\src\tests\cmake-build-debug
+CMake Warning at CMakeLists.txt:18 (message):
+  Using googletest src dir specified at Qt Creator wizard
+
+
+-- Found SFML 2.5.1 in C:/Game2048/libs/SFML-2.5.1/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Game2048/src/tests/cmake-build-debug

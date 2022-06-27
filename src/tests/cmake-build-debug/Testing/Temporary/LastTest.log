@@ -1,0 +1,83 @@
+Start testing: Jun 27 19:23 RTZ 2 (ceia)
+----------------------------------------------------------
+1/1 Testing: tests
+1/1 Test: tests
+Command: "C:/Game2048/src/tests/cmake-build-debug/tests.exe"
+Directory: C:/Game2048/src/tests/cmake-build-debug
+"tests" start time: Jun 27 19:23 RTZ 2 (ceia)
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 12 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from FieldAssingnment
+[ RUN      ] FieldAssingnment.Tests
+[       OK ] FieldAssingnment.Tests (0 ms)
+[----------] 1 test from FieldAssingnment (0 ms total)
+
+[----------] 1 test from FieldInvalidAssingnment
+[ RUN      ] FieldInvalidAssingnment.Tests
+[       OK ] FieldInvalidAssingnment.Tests (0 ms)
+[----------] 1 test from FieldInvalidAssingnment (0 ms total)
+
+[----------] 1 test from FieldClear
+[ RUN      ] FieldClear.Tests
+[       OK ] FieldClear.Tests (0 ms)
+[----------] 1 test from FieldClear (0 ms total)
+
+[----------] 1 test from FieldGenerateNumber
+[ RUN      ] FieldGenerateNumber.Tests
+[       OK ] FieldGenerateNumber.Tests (0 ms)
+[----------] 1 test from FieldGenerateNumber (0 ms total)
+
+[----------] 1 test from MatrixRotate
+[ RUN      ] MatrixRotate.Tests
+[       OK ] MatrixRotate.Tests (0 ms)
+[----------] 1 test from MatrixRotate (0 ms total)
+
+[----------] 1 test from FieldMove
+[ RUN      ] FieldMove.Tests
+[       OK ] FieldMove.Tests (0 ms)
+[----------] 1 test from FieldMove (0 ms total)
+
+[----------] 1 test from FieldUselessMove
+[ RUN      ] FieldUselessMove.Tests
+[       OK ] FieldUselessMove.Tests (0 ms)
+[----------] 1 test from FieldUselessMove (0 ms total)
+
+[----------] 1 test from FieldMerge
+[ RUN      ] FieldMerge.Tests
+[       OK ] FieldMerge.Tests (0 ms)
+[----------] 1 test from FieldMerge (0 ms total)
+
+[----------] 1 test from FieldDoubleMerge
+[ RUN      ] FieldDoubleMerge.Tests
+[       OK ] FieldDoubleMerge.Tests (0 ms)
+[----------] 1 test from FieldDoubleMerge (0 ms total)
+
+[----------] 1 test from FieldScores
+[ RUN      ] FieldScores.Tests
+[       OK ] FieldScores.Tests (0 ms)
+[----------] 1 test from FieldScores (0 ms total)
+
+[----------] 1 test from FieldGameOver
+[ RUN      ] FieldGameOver.Tests
+[       OK ] FieldGameOver.Tests (0 ms)
+[----------] 1 test from FieldGameOver (0 ms total)
+
+[----------] 1 test from FieldGameWin
+[ RUN      ] FieldGameWin.Tests
+[       OK ] FieldGameWin.Tests (0 ms)
+[----------] 1 test from FieldGameWin (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 12 test suites ran. (1 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"tests" end time: Jun 27 19:23 RTZ 2 (ceia)
+"tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 27 19:23 RTZ 2 (ceia)

@@ -1,0 +1,6 @@
+# ninja log v5
+1	1469	6780486865845759	CMakeFiles/tests.dir/main.cpp.obj	e9bba0ae46e3263c
+6	5735	6780487420756226	CMakeFiles/tests.dir/tst_tests.cpp.obj	202418ef6a340484
+7	7241	6780490076509813	CMakeFiles/tests.dir/C_/Game2048/libs/googletest-release-1.11.0/googlemock/src/gmock-all.cc.obj	6ec7928ba47d7a67
+9	11119	6780496320180075	CMakeFiles/tests.dir/C_/Game2048/libs/googletest-release-1.11.0/googletest/src/gtest-all.cc.obj	5e5f215f39744f26
+11122	15725	6780496366604374	tests.exe	91212a1e19b578
