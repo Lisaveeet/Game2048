@@ -1,6 +1,8 @@
-// Styles for GoogleTest docs website on GitHub Pages.
-// Color variables are defined in
-// https://github.com/pages-themes/primer/tree/master/_sass/primer-support/lib/variables
+/** Styles for GoogleTest docs website on GitHub Pages.
+ Color variables are defined in
+ https://github.com/pages-themes/primer/tree/master/_sass/primer-support/lib/variables
+
+*/
 
 $sidebar-width: 260px;
 
@@ -8,28 +10,28 @@ body {
   display: flex;
   margin: 0;
 }
-
+/* The sidebar navigation menu */
 .sidebar {
   background: $black;
   color: $text-white;
   flex-shrink: 0;
-  height: 100vh;
-  overflow: auto;
-  position: sticky;
-  top: 0;
-  width: $sidebar-width;
+  height: 100vh;  /* Full-height: remove this if you want "auto" height */
+  overflow: auto; /* set horizontal scroll */
+  position: sticky;  /* Fixed Sidebar (stay in place on scroll) */
+  top: 0; /* Stay at the top */
+  width: $sidebar-width; /* Set the width of the sidebar */
 }
-
+/* The navigation menu links */
 .sidebar h1 {
   font-size: 1.5em;
 }
-
+/* The navigation menu links */
 .sidebar h2 {
   color: $gray-light;
   font-size: 0.8em;
   font-weight: normal;
-  margin-bottom: 0.8em;
-  padding-left: 2.5em;
+  margin-bottom: 0.8em; /* Margin at the bottom of the element */
+  padding-left: 2.5em; /* Sets the margin value from the left edge of the element's content */
   text-transform: uppercase;
 }
 
@@ -103,7 +105,11 @@ body {
     background: $border-gray-darker;
   }
 }
+/*
+  Style page content 
 
+
+ */ 
 .main {
   background-color: $bg-gray;
   width: calc(100% - #{$sidebar-width});
@@ -163,7 +169,9 @@ body {
 .main .bad pre {
   background-color: $red-000;
 }
-
+/*
+ Title and top navigation
+ */
 @media all and (max-width: 768px) {
   body {
     flex-direction: column;
