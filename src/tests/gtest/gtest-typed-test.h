@@ -169,9 +169,9 @@ INSTANTIATE_TYPED_TEST_SUITE_P(My, FooTest, MyTypes);
 
 #endif  // 0
 
-#include "C:/Game2048/src/tests/gtest/internal/gtest-internal.h"
-#include "C:/Game2048/src/tests/gtest/internal/gtest-port.h"
-#include "C:/Game2048/src/tests/gtest/internal/gtest-type-util.h"
+#include "../gtest/internal/gtest-internal.h"
+#include "../gtest/internal/gtest-port.h"
+#include "../gtest/internal/gtest-type-util.h"
 
 // Implements typed tests.
 

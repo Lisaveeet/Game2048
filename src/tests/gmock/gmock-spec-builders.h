@@ -70,12 +70,12 @@
 #include <type_traits>
 #include <utility>
 #include <vector>
-#include "C:/Game2048/src/tests/gmock/gmock-actions.h"
-#include "C:/Game2048/src/tests/gmock/gmock-cardinalities.h"
-#include "C:/Game2048/src/tests/gmock/gmock-matchers.h"
-#include "C:/Game2048/src/tests/gmock/internal/gmock-internal-utils.h"
-#include "C:/Game2048/src/tests/gmock/internal/gmock-port.h"
-#include "C:/Game2048/src/tests/gtest/gtest.h"
+#include "gmock/gmock-actions.h"
+#include "gmock/gmock-cardinalities.h"
+#include "gmock/gmock-matchers.h"
+#include "gmock/internal/gmock-internal-utils.h"
+#include "gmock/internal/gmock-port.h"
+#include "gtest/gtest.h"
 
 #if GTEST_HAS_EXCEPTIONS
 # include <stdexcept>  // NOLINT

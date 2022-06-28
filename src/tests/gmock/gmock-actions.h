@@ -142,9 +142,9 @@
 #include <type_traits>
 #include <utility>
 
-#include "C:/Game2048/src/tests/gmock/internal/gmock-internal-utils.h"
-#include "C:/Game2048/src/tests/gmock/internal/gmock-port.h"
-#include "C:/Game2048/src/tests/gmock/internal/gmock-pp.h"
+#include "gmock/internal/gmock-internal-utils.h"
+#include "gmock/internal/gmock-port.h"
+#include "gmock/internal/gmock-pp.h"
 
 #ifdef _MSC_VER
 # pragma warning(push)

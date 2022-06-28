@@ -14,10 +14,10 @@ find_package(Threads REQUIRED)
 if ($ENV{GOOGLETEST_DIR})
     set(GOOGLETEST_DIR $ENV{GOOGLETEST_DIR})
 else ()
-    if (NOT "C:/Game2048/libs/googletest-release-1.11.0" STREQUAL "")
+    if (NOT "../libs/googletest-release-1.11.0" STREQUAL "")
         message(WARNING "Using googletest src dir specified at Qt Creator wizard")
     endif ()
-    set(GOOGLETEST_DIR "C:/Game2048/libs/googletest-release-1.11.0")
+    set(GOOGLETEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/libs/googletest-release-1.11.0")
 endif ()
 if (EXISTS ${GOOGLETEST_DIR})
     set(GTestSrc ${GOOGLETEST_DIR}/googletest)
@@ -41,7 +41,6 @@ endif ()
 
 include_directories(${GTestIncludes})
 
-set(SFML_DIR "C:/Game2048/libs/SFML-2.5.1/lib/cmake/SFML")
 
 find_package(SFML 2.5 COMPONENTS graphics audio system REQUIRED)
 
@@ -49,3 +48,4 @@ add_executable(tests main.cpp tst_tests.cpp
                ${GTestFiles})
 add_test(NAME tests COMMAND tests)
 target_link_libraries(tests PRIVATE Threads::Threads sfml-graphics sfml-audio)
+

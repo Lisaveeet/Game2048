@@ -1,8 +1,8 @@
-#include <C:/Game2048/src/tests/gtest/gtest.h>
-#include <C:/Game2048/src/tests/gmock/gmock-matchers.h>
+#include "gtest/gtest.h"
+#include "gmock/gmock-matchers.h"
 
-#include "C:/Game2048/src/Field/fieldmodel.h"
-#include "C:/Game2048/src/Field/fieldmodel.cpp"
+#include "../Field/fieldmodel.h"
+#include "../Field/fieldmodel.cpp"
 
 using namespace testing;
 

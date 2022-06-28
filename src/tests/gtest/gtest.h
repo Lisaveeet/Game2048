@@ -384,7 +384,7 @@ GTEST_API_ AssertionResult AssertionFailure(const Message& msg);
 // Includes the auto-generated header that implements a family of generic
 // predicate assertion macros. This include comes late because it relies on
 // APIs declared above.
-#include "C:/Game2048/src/tests/gtest/gtest_pred_impl.h"
+#include "gtest/gtest_pred_impl.h"
 
 namespace testing {
 

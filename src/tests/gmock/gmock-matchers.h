@@ -268,10 +268,10 @@
 #include <utility>
 #include <vector>
 
-#include "C:/Game2048/src/tests/gmock/internal/gmock-internal-utils.h"
-#include "C:/Game2048/src/tests/gmock/internal/gmock-port.h"
-#include "C:/Game2048/src/tests/gmock/internal/gmock-pp.h"
-#include "C:/Game2048/src/tests/gtest/gtest.h"
+#include "gmock/internal/gmock-internal-utils.h"
+#include "gmock/internal/gmock-port.h"
+#include "gmock/internal/gmock-pp.h"
+#include "gtest/gtest.h"
 
 // MSVC warning C5046 is new as of VS2017 version 15.8.
 #if defined(_MSC_VER) && _MSC_VER >= 1915
@@ -5387,6 +5387,6 @@ GTEST_DISABLE_MSC_WARNINGS_POP_()  //  4251 5046
 // Include any custom callback matchers added by the local installation.
 // We must include this header at the end to make sure it can use the
 // declarations from this file.
-#include "C:/Game2048/src/tests/gmock/internal/custom/gmock-matchers.h"
+#include "gmock/internal/custom/gmock-matchers.h"
 
 #endif  // GOOGLEMOCK_INCLUDE_GMOCK_GMOCK_MATCHERS_H_

@@ -5,4 +5,10 @@
 27	1886	6780480033449941	CMakeFiles/src.dir/game.cpp.obj	e73ac47df9795968
 5	1665	6780480031235849	CMakeFiles/src.dir/main.cpp.obj	ec964d73ffdee3dc
 23	1971	6780480034307998	CMakeFiles/src.dir/Field/fieldmodel.cpp.obj	c3fdd033e607ecf6
-2	554	6780653900550430	build.ninja	4bd6b29d67c2f5a6
+2	554	6781350076750497	build.ninja	4bd6b29d67c2f5a6
+34	2362	6781350145029988	CMakeFiles/src.dir/Field/fieldcontroller.cpp.obj	d60dde40ea149d37
+9	2385	6781350145229465	CMakeFiles/src.dir/main.cpp.obj	ec964d73ffdee3dc
+43	2417	6781350145578521	CMakeFiles/src.dir/Field/fieldview.cpp.obj	3c0f1e8fa9f924fe
+49	2640	6781350147802567	CMakeFiles/src.dir/game.cpp.obj	e73ac47df9795968
+39	2755	6781350148955600	CMakeFiles/src.dir/Field/fieldmodel.cpp.obj	c3fdd033e607ecf6
+2755	3100	6781350152392064	src.exe	7ce53d22dd3acbfa
