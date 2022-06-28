@@ -53,33 +53,42 @@ void Game::centerText(sf::Text &text) {
 
     text.setPosition(x, text.getPosition().y);
 }
-
+/*
+ * Главный метод класса Game
+ * Запускает цикл игры
+*/
 void Game::run() {
+    /* Пока игровое окно открыто */
     while (m_window.isOpen()) {
 
+        /* Проверяем события окна */ 
         sf::Event event;
-
         while (m_window.pollEvent(event))
         {
+            /* Проверяем нажатия кнопок */
             handleKeyPress(event);
 
             if (event.type == sf::Event::Closed)
                 m_window.close();
         }
 
+        /* Проверяем, окончена ли игра */
         if (m_controller.isGameOver()) {
             m_menuTitleText.setString(L"Игра окончена!");
             changeMenuText();
             m_screenState = Screen::MenuScreen;
         }
+        /* Проверяем победил ли игрок */
         if (m_controller.isWin()) {
             m_menuTitleText.setString(L"Вы победили!");
             changeMenuText();
             m_screenState = Screen::MenuScreen;
         }
 
+        /* Очищаем окно и заполняем его светло-серым цветом */
         m_window.clear(sf::Color(230, 230, 230));
 
+        /* В зависимости от текущего состояния окна, рисуем соответствующий экран */
         if (m_screenState == Screen::MenuScreen)
             drawMenuScreen();
         if (m_screenState == Screen::GameScreen) {
@@ -88,15 +97,6 @@ void Game::run() {
 
         m_window.display();
     }
-}
-
-void Game::changeMenuText() {
-    m_menuScoreText.setString(L"Очки: " + std::to_wstring(m_score));
-    m_menuHintText.setString(L"Нажмите Space, чтобы сыграть снова");
-
-    centerText(m_menuHintText);
-    centerText(m_menuTitleText);
-    centerText(m_menuScoreText);
 }
 
 void Game::handleKeyPress(sf::Event event) {
